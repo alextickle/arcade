@@ -1,0 +1,42 @@
+a {
+	 color: black;
+}
+
+ body {
+	 background-image: url("../media/olivier.jpg");
+ }
+
+.row {
+	margin-top: 250px;
+}
+
+a:hover {
+	background-color: black;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+}
+
+#footer {
+	margin-top: 550px;
+	border-top: #6bb120 solid 2px;
+	border-bottom: #6bb120 solid 2px;
+	background-color: #5588ff;
+	height: 35px;
+}
+
+p {
+	text-align: center;
+	font-family: Times;
+}
+
+#musicPlayer {
+	visibility: hidden;
+}
+
+a {
+	padding-left: 20px;
+	padding-right: 20px;
+}
