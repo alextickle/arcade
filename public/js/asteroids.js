@@ -1,3 +1,4 @@
+// global variables
 var points = 0;
 var laserCharge = 0;
 
@@ -25,6 +26,8 @@ function initLaserChargeBar(){
   }
 }
 
+// state object manages location of the player, asteroids, and lasers using
+// a two dimensional array
 var state = {
   grid: [],
   manPos: 10,
@@ -33,6 +36,7 @@ var state = {
   pointCountTimer: "",
   level: 1,
   render: function(){
+    // loops through game grid and updates CSS properties of each grid cell
     for (var i = 0; i < 20; i++) {
       for (var j = 0; j < 20; j++) {
         if (this.grid[i][j] == "a"){
@@ -59,6 +63,7 @@ var state = {
       clearTimeout(state.asteroidTimer);
       startAsteroids();
     }
+
     // update laser charge
     for (var i = 0; i < 15; i++) {
       if (i <= laserCharge){
@@ -73,6 +78,7 @@ var state = {
       document.getElementById("laserChargeText").setAttribute("class", "charged");
     }
   },
+
   // all asteroids fall one row down
   gravity: function(){
     for (var i = 19; i >= 0; i--) {
@@ -88,6 +94,7 @@ var state = {
         }
       }
     }
+    // game over condition
     if (!manAlive()){
       clearTimeout(state.asteroidTimer);
       clearTimeout(state.pointCountTimer);
