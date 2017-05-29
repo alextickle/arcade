@@ -1,4 +1,6 @@
 $(document).ready(function(){
-  document.getElementById("musicPlayer").load();
-  document.getElementById("musicPlayer").play();
+  var player = document.getElementById("musicPlayer");
+  player.load();
+  player.volume = .1;
+  player.play();
 });

@@ -1,5 +1,3 @@
-// TODO add larger asteroids? generate alien that can shoot back?
-
 var points = 0;
 var laserCharge = 0;
 

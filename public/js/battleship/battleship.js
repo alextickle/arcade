@@ -12,6 +12,7 @@ var myShips = [];
 var computerShots = [];
 
 var audio = document.getElementById("audio");
+audio.volume = .2;
 
 function initGrids(){
   var targetGrid = document.getElementById("grid")
