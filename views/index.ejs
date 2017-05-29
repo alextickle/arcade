@@ -3,19 +3,30 @@
   <title>Home</title>
   <link href="/css/index.css" type="text/css" rel="stylesheet"/>
   <script src="/js/jquery-3.1.1.js"></script>
-  <script src="/js/index.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+  <script src="/js/music.js"></script>
 </head>
 <body>
-  <div id="footer">
-    <b><p><a href="/asteroid" target="_blank">Asteroid </a>|
-    <a href="/battleship" target="_blank">Battleship </a>|
-    <a href="/blackJack" target="_blank">Black Jack </a>|
-    <a href="/turtleGraphics" target="_blank">Turtle Graphics</a></p></b>
+  <div class="container">
+    <div id="top" class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6">
+        <h1 id="header">ARCADE</h1>
+      </div>
+      <div class="col-sm-3">
+      </div>
+    </div>
   </div>
-  <div>
-    <audio id="musicPlayer" controls>
-      <source src="/media/music/Novos Baianos - Acabou chorare.mp3" type="audio/mpeg">
-    </audio>
-  <div>
+  <div id="game-div">
+    <h3><a href="/asteroid" target="_blank">Asteroid </a></h3>
+    <h3><a href="/battleship" target="_blank">Battleship</a></h3>
+    <h3><a href="/blackJack" target="_blank">Black Jack </a></h3>
+  </div>
+  <audio id="musicPlayer" controls>
+    <source src="/media/music/retro.mp3" type="audio/mpeg">
+  </audio>
 </body>
 </html>

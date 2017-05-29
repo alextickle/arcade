@@ -1,42 +1,50 @@
-a {
-	 color: black;
+p {
+	 font-size: 30px;
+	 color: #FF1493;
 }
 
- body {
-	 background-image: url("../media/olivier.jpg");
- }
+a {
+	font-family: monospace;
+	color: #FF1493;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
-.row {
-	margin-top: 250px;
+body {
+	background-image: url("../media/retro.jpg");
+}
+
+#game-div {
+	margin-left: 425px;
+	background-color: #FF1493;
+	width: 500px;
+}
+
+#header {
+	font-size: 100px;
+	font-family: 'Monoton', cursive;
+	color: #FF1493;
+	height: 200px;
+}
+
+#top {
+	margin-top: 100px;
+	height: 150px;
+}
+
+h3 {
+	display: inline;
+}
+
+#bottom {
+	margin-top: 50px;
 }
 
 a:hover {
 	background-color: black;
-	color: white;
-}
-
-h2 {
-	text-align: center;
-}
-
-#footer {
-	margin-top: 550px;
-	border-top: #6bb120 solid 2px;
-	border-bottom: #6bb120 solid 2px;
-	background-color: #5588ff;
-	height: 35px;
-}
-
-p {
-	text-align: center;
-	font-family: Times;
+	color: #FF1493;
 }
 
 #musicPlayer {
-	visibility: hidden;
-}
-
-a {
-	padding-left: 20px;
-	padding-right: 20px;
+visibility: hidden;
 }
