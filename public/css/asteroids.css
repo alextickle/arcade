@@ -1,5 +1,9 @@
+body {
+  background-image: url("../media/space.jpg");
+}
+
 table {
-  border: black solid 2px;
+  border: white solid 2px;
   border-collapse: collapse;
   margin: auto;
 }
@@ -33,9 +37,12 @@ td {
 
 #header {
   text-align: center;
-  font-family: 'Lucida Console'; Monaco, monospace;
+  font-family: 'Orbitron', sans-serif;
+  color: orange;
+  margin-bottom: 75px;
 }
 
-h4 {
-  text-align: center;
+#points, #points-header, #laserChargeText {
+  color: orange;
+  font-family: 'Orbitron', sans-serif;
 }
