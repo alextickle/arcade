@@ -19,10 +19,6 @@ app.get('/battleship', function (request, response) {
  response.render('battleship');
 });
 
-app.get('/black-jack', function (request, response) {
- response.render('black-jack');
-});
-
 app.get('/turtle-graphics', function (request, response) {
  response.render('turtle-graphics');
 });
